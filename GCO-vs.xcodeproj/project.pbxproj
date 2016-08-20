@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EF0D14501D67ECFA00203B95 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF0D144F1D67ECFA00203B95 /* main.cpp */; };
+		EF0D14611D67ED1C00203B95 /* example.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF0D14581D67ED1C00203B95 /* example.cpp */; };
+		EF0D14621D67ED1C00203B95 /* GCoptimization.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF0D145A1D67ED1C00203B95 /* GCoptimization.cpp */; };
+		EF0D14631D67ED1C00203B95 /* graph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF0D145C1D67ED1C00203B95 /* graph.cpp */; };
+		EF0D14641D67ED1C00203B95 /* LinkedBlockList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF0D145E1D67ED1C00203B95 /* LinkedBlockList.cpp */; };
+		EF0D14651D67ED1C00203B95 /* maxflow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF0D14601D67ED1C00203B95 /* maxflow.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +28,17 @@
 
 /* Begin PBXFileReference section */
 		EF0D144C1D67ECFA00203B95 /* GCO-vs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "GCO-vs"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF0D144F1D67ECFA00203B95 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EF0D14561D67ED1C00203B95 /* block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = block.h; sourceTree = "<group>"; };
+		EF0D14571D67ED1C00203B95 /* energy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = energy.h; sourceTree = "<group>"; };
+		EF0D14581D67ED1C00203B95 /* example.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = example.cpp; sourceTree = "<group>"; };
+		EF0D14591D67ED1C00203B95 /* GCO_README.TXT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GCO_README.TXT; sourceTree = "<group>"; };
+		EF0D145A1D67ED1C00203B95 /* GCoptimization.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GCoptimization.cpp; sourceTree = "<group>"; };
+		EF0D145B1D67ED1C00203B95 /* GCoptimization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCoptimization.h; sourceTree = "<group>"; };
+		EF0D145C1D67ED1C00203B95 /* graph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = graph.cpp; sourceTree = "<group>"; };
+		EF0D145D1D67ED1C00203B95 /* graph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = graph.h; sourceTree = "<group>"; };
+		EF0D145E1D67ED1C00203B95 /* LinkedBlockList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedBlockList.cpp; sourceTree = "<group>"; };
+		EF0D145F1D67ED1C00203B95 /* LinkedBlockList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedBlockList.h; sourceTree = "<group>"; };
+		EF0D14601D67ED1C00203B95 /* maxflow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = maxflow.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +71,17 @@
 		EF0D144E1D67ECFA00203B95 /* GCO-vs */ = {
 			isa = PBXGroup;
 			children = (
-				EF0D144F1D67ECFA00203B95 /* main.cpp */,
+				EF0D14561D67ED1C00203B95 /* block.h */,
+				EF0D14571D67ED1C00203B95 /* energy.h */,
+				EF0D14581D67ED1C00203B95 /* example.cpp */,
+				EF0D14591D67ED1C00203B95 /* GCO_README.TXT */,
+				EF0D145A1D67ED1C00203B95 /* GCoptimization.cpp */,
+				EF0D145B1D67ED1C00203B95 /* GCoptimization.h */,
+				EF0D145C1D67ED1C00203B95 /* graph.cpp */,
+				EF0D145D1D67ED1C00203B95 /* graph.h */,
+				EF0D145E1D67ED1C00203B95 /* LinkedBlockList.cpp */,
+				EF0D145F1D67ED1C00203B95 /* LinkedBlockList.h */,
+				EF0D14601D67ED1C00203B95 /* maxflow.cpp */,
 			);
 			path = "GCO-vs";
 			sourceTree = "<group>";
@@ -118,7 +142,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF0D14501D67ECFA00203B95 /* main.cpp in Sources */,
+				EF0D14631D67ED1C00203B95 /* graph.cpp in Sources */,
+				EF0D14621D67ED1C00203B95 /* GCoptimization.cpp in Sources */,
+				EF0D14611D67ED1C00203B95 /* example.cpp in Sources */,
+				EF0D14651D67ED1C00203B95 /* maxflow.cpp in Sources */,
+				EF0D14641D67ED1C00203B95 /* LinkedBlockList.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
